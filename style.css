@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #8e24aa, #f50057);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background-image: url('imagens/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Faz o fundo ficar fixo enquanto você rola */
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 64, 129, 0.4);
+  animation: fadeIn 1.2s ease;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ff80ab;
+  text-shadow: 2px 2px 5px #c2185b;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.intro {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.motivos .motivo {
+  margin-bottom: 1rem;
+  border-left: 4px solid #f50057;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.motivos .motivo p {
+  display: none;
+  margin-top: 0.3rem;
+}
+
+.highlight {
+  color: #ff4081;
+}
+
+.botao-final {
+  background-color: #ff4081;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.botao-final:hover {
+  transform: scale(1.05);
+  background-color: #f06292;
+}
+
+#mensagem-final {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  display: none;
+  color: #ffb3c1;
+}
+
+footer {
+  text-align: right;
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #ffb3c1;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
