@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giovana, Poste o Vídeo!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-banner">GIOVANA, VOCÊ É O MOMENTO 💅</header>
+
+  <div class="container">
+    <h1>10 Motivos pelos quais a Giovana deve postar o vídeo agora mesmo</h1>
+    <p class="subtitle">(Uma carta formal de incentivo à deusa que ela é)</p>
+    <p class="intro">Prezada Giovana,</p>
+    <p class="intro">
+      Viemos, por meio desta, apresentar razões objetivas, emocionais e visivelmente inegáveis para que você poste o vídeo imediatamente.
+    </p>
+
+    <div class="motivos">
+      <!-- Cada motivo é clicável -->
+      <div class="motivo">
+        <h3>1. Sua beleza é real e precisa ser vista</h3>
+        <p>O vídeo capta algo que não se fabrica: a sua presença...</p>
+      </div>
+      <div class="motivo">
+        <h3>2. Você inspira autoconfiança só de existir</h3>
+        <p>Cada movimento seu transmite segurança e leveza...</p>
+      </div>
+      <div class="motivo">
+        <h3>3. Autoestima não se esconde, se compartilha</h3>
+        <p>Mostrar-se com orgulho não é vaidade...</p>
+      </div>
+      <div class="motivo">
+        <h3>4. Você está em sua melhor fase – e isso merece palco</h3>
+        <p>Há momentos que precisam ser eternizados...</p>
+      </div>
+      <div class="motivo">
+        <h3>5. Sua imagem representa força e autenticidade</h3>
+        <p>Vemos alguém mais que bonita: intensa e verdadeira.</p>
+      </div>
+      <div class="motivo">
+        <h3>6. Você é referência estética (mesmo que não admita)</h3>
+        <p>Há quem se inspire em você – e o vídeo prova isso.</p>
+      </div>
+      <div class="motivo">
+        <h3>7. Porque se você gostou, é motivo suficiente</h3>
+        <p>Se você se sentiu linda, ninguém precisa validar nada.</p>
+      </div>
+      <div class="motivo">
+        <h3>8. Postar é atitude pura</h3>
+        <p>Autoestima é também agir. Postar é se afirmar.</p>
+      </div>
+      <div class="motivo">
+        <h3>9. O mundo precisa da sua luz</h3>
+        <p>O feed agradece pela sua presença. Literalmente.</p>
+      </div>
+      <div class="motivo">
+        <h3 class="highlight">10. Porque você é GIOVANA. E GIOVANA a gente posta!</h3>
+        <p>Com letra maiúscula, em negrito e em tela cheia.</p>
+      </div>
+    </div>
+
+    <button onclick="mostrarMensagem()">Giovana, você está convencida?</button>
+    <p id="mensagem-final">Então POSTA logo, lenda! O mundo está esperando! 💖✨</p>
+
+    <div class="audio-container">
+      <button onclick="tocarAudio()">▶ Tocar trilha sonora</button>
+      <audio id="musica-fundo" src="audio/glamour.mp3"></audio>
+    </div>
+
+    <footer>
+      <p>Atenciosamente,<br><em>A voz da razão (e do glamour)</em></p>
+    </footer>
+  </div>
+
+  <canvas id="confetti-canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
